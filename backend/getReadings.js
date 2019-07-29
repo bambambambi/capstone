@@ -2,8 +2,8 @@ const AWS = require("aws-sdk")
 
 AWS.config.update({
     region: "us-east-1",
-    accessKeyId: "AKIAWJ5SJX432RXAD5MR",
-    secretAccessKey: "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"
+    accessKeyId: "",
+    secretAccessKey: ""
 })
 
 const getReadings = () => {
